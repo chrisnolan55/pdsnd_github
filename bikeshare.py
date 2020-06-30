@@ -16,7 +16,7 @@ def get_filters():
     city=input('Please select a city to invesitgate: New York, Chicago, or Washington. \n ---Response:').lower()
     while city not in CITY_DATA:
             try:
-                print('There was an error in your selection- please choose a valid city to view Bikeshare Data')
+                print('There was an error in your selection: Please choose a valid city to view Bikeshare Data')
                 city=input('Please select a city to invesitgate: New York, Chicago, or Washington \n ---Response:').lower()
                 break
             except ValueError:
