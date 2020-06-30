@@ -13,3 +13,5 @@ Include the files used
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 -Used personal notes from the lessons in the Udacity course
+##Edit One- Interesting Fact
+-My name is Chris because I was born on Christmas
