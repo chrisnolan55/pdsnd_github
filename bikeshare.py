@@ -115,21 +115,17 @@ def trip_duration_stats(df):
 
 def user_stats(df):
 # Displays statistics on bikeshare users
-
     print('\nCalculating User Stats...\n')
     start_time = time.time()
-
 # Display counts of user types
     user_type_count = df['User Type'].value_counts()
     print(user_type_count)
-
 # Display counts of gender Gender and Birth Year available for NYC and Chicago ONLY- Gender info not available for Washington
     try:
       gender_types = df['Gender'].value_counts()
       print('\nGender Types:\n', gender_types)
     except KeyError:
       print("Sorry, there is no data available due to your city selection.")
-
 # Display earliest, most recent, and most common year of birth
     try:
       Earliest_Year = df['Birth Year'].min()
